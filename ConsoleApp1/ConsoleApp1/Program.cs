@@ -30,10 +30,6 @@ namespace ConsoleApp1
             return text;
         }
 
-        public int Compare(Element x, Element y)
-        {
-            throw new NotImplementedException();
-        }
     }
 
     public struct Element :  IComparable<Element>
